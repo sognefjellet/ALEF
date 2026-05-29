@@ -1,0 +1,42 @@
+<html>
+<head>
+    <style type="text/css" rel="stylesheet">
+        {{style}}
+        </style>
+    <link rel="stylesheet" href="../testresult-style.css"/>
+</head>
+<body>
+<div class="header">
+    <img src="../logo.png"/>
+</div>
+<a href="../index.html">index</a> / <a href="index.html">{{ group.configuration.name }}</a>
+<h1>Summary</h1>
+<p>Duration: {{ formattedDuration }}</p>
+<p>Tests: {{ tests }}</p>
+<p>Passed: {{ passed }}</p>
+<p>Skipped: {{ skipped }}</p>
+<p>Failed: {{ failed }}</p>
+
+<h1>Test result : {{ name }}</h1>
+<table>
+    <tr>
+        <th>{{ group.configuration.testClassLabel }}</th>
+        <th>Duration</th>
+        <th>Failed</th>
+        <th>Skipped</th>
+        <th>Pass</th>
+        <th>Total</th>
+    </tr>
+    {{#testClasses}}
+    <tr>
+        <td><a href="{{ sanitizedName }}.html">{{ simpleName }}</a></td>
+        <td>{{ formattedDuration }}</td>
+        <td>{{ failed }}</td>
+        <td>{{ skipped }}</td>
+        <td>{{ passed }}</td>
+        <td>{{ tests }}</td>
+    </tr>
+    {{/testClasses}}
+</table>
+</body>
+</html>

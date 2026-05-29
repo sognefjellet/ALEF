@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="linguistics.devkit" uuid="614d02c1-8123-46b0-a143-a8440a80bc83">
+  <exported-language name="804014de-e593-4efc-b1b2-c667769358b9(linguistics)" />
+  <exported-language name="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
+  <exported-language name="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <exported-language name="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <exported-language name="f4ad079d-bc71-4ffb-9600-9328705cf998(jetbrains.mps.lang.descriptor)" />
+  <exported-language name="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <exported-language name="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
+  <exported-language name="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <exported-language name="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+  <exported-language name="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
+  <exported-language name="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
+  <exported-language name="96ee7a94-411d-4cf8-9b94-96cad7e52411(jetbrains.mps.baseLanguage.jdk7)" />
+  <exported-language name="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <exported-language name="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
+  <exported-language name="515552c7-fcc0-4ab4-9789-2f3c49344e85(jetbrains.mps.baseLanguage.varVariable)" />
+  <exported-language name="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
+  <extendedDevKits>
+    <extendedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</extendedDevKit>
+  </extendedDevKits>
+  <exported-solutions>
+    <exported-solution>f8bf3c8d-ee85-439f-86d4-91cc941f4852(linguistics.genplan)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:401a109f-c6fb-48a0-839b-07e122dc9bb5(linguistics.genplan)" />
+</dev-kit>
+

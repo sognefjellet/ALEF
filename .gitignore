@@ -1,0 +1,90 @@
+# -----------------------------------------------------------
+# general:
+.DS_Store
+workspace.xml
+junitvmwatcher*.properties
+TEST-*.xml
+junit*.properties
+*.history
+
+# -----------------------------------------------------------
+# MPS:
+/**/classes_gen/
+/**/source_gen/
+/**/source_gen.caches/
+/**/test_gen/
+/**/test_gen.caches/
+/**/generated/
+/**/trace.info
+/.mps/shelf/
+.mps-caches/
+
+# -----------------------------------------------------------
+# temp files:
+/**/~*
+/**/*.swp
+
+# Jars:
+/solutions/alef.runtime/lib/*.jar
+/solutions/serviceTest.runtime/lib/*.jar
+/solutions/org.xml/lib/*.jar
+/solutions/org.apache.batik/lib/*.jar
+/solutions/org.apache.poi/lib/*.jar
+/solutions/org.apache.commons.text/lib/*.jar
+/languages/objecten/lib/*.jar
+/solutions/grmRente.runtime/lib/*.jar
+/solutions/alef.runtime/lid/*.jar
+
+# -----------------------------------------------------------
+# Intellij:
+/AlefJava/out/**
+/AlefJava/.idea/shelf/**
+/AlefJava/.idea/libraries/Maven__*
+/AlefJava/.idea/GitScope.xml
+/AlefJava/lib/blaze-unsigned/**
+/AlefJava/lib/apache-jmeter-5.1.1/**
+/AlefJava/lib/brm-grm-client
+/AlefJava/lib/poi/**
+/AlefJava/lib/log4j-*
+/AlefJava/lib/alefruntime/**
+/AlefJava/alefjava.properties
+/AlefJava/*.patch
+.idea
+
+# -----------------------------------------------------------
+# specials:
+/installer/data/**
+/solutions/IH/models/ih.testsImported/*.mpsr
+/Testgevallen-in-excel/IMPORT/*.*
+# /build_build.xml: do not ignore! it is the only ANT file that should be in Git!
+/**/build/
+/**/*-plugin.xml
+/**/*-mpsplugin.xml
+/**/*-demo.xml
+/**/*-tests.xml
+/alef-all-modules.xml
+/alef-distribution.xml
+/alef-standalone.xml
+/alef-test.xml
+/build_alef_about.xml
+/translator-test.xml
+/plugins/json/build-json-plugin.xml
+/plugins/json/json-test.xml
+#/build.properties
+#/build.xml
+/modelcheck-results.txt
+/logs/
+/.mps/dictionaries/**
+sbom.*
+
+# -----------------------------------------------------------
+
+/deps/
+target/
+*.versionsBackup
+/AlefJava/merlin/merlin.iml
+Rapportage_*.zip
+AlefJava/alefRuntime/.jqwik-database
+
+!AlefJava/testReport/src/test/resources/TEST-*.xml
+

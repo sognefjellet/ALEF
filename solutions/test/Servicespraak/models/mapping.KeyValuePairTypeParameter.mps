@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:bc508d80-6f0c-4a09-a43c-2bdaf9b4cfa0(mapping.KeyValuePairTypeParameter)">
+  <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
+  <languages>
+    <devkit ref="d07fa9c5-678d-4a9b-9eaf-b1b8c569b820(alef.devkit)" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="09c04f52-88c5-4bd6-a481-cabab9f61ff5" name="contexts">
+      <concept id="4485080112264973245" name="contexts.structure.Witruimte" flags="ng" index="1uxNW$" />
+    </language>
+    <language id="7bbaf860-5f96-44b4-9731-6e00ae137ece" name="regelspraak">
+      <concept id="6747529342261866296" name="regelspraak.structure.ConsistentieRegel" flags="ng" index="28FMkn">
+        <child id="6747529342261867287" name="criterium" index="28FN$S" />
+      </concept>
+      <concept id="6747529342263124657" name="regelspraak.structure.Vergelijking" flags="ng" index="28IAyu">
+        <property id="6747529342263127133" name="operator" index="28IApM" />
+        <child id="6747529342263128125" name="rechts" index="28IBCi" />
+      </concept>
+      <concept id="653687101152476296" name="regelspraak.structure.ActieIndienVoorwaarde" flags="ng" index="2boe1W">
+        <child id="1480463129960504793" name="actie" index="1wO7i6" />
+      </concept>
+      <concept id="653687101152476040" name="regelspraak.structure.ParameterRef" flags="ng" index="2boetW">
+        <reference id="653687101152476041" name="param" index="2boetX" />
+      </concept>
+      <concept id="653687101158189440" name="regelspraak.structure.Regelgroep" flags="ng" index="2bQVlO">
+        <child id="9154144551704439187" name="inhoud" index="1HSqhF" />
+      </concept>
+      <concept id="347899601029311684" name="regelspraak.structure.AttribuutSelector" flags="ng" index="c2t0s" />
+      <concept id="6223277501270327848" name="regelspraak.structure.AbstracteRegel" flags="ng" index="nISv2">
+        <child id="6223277501273432772" name="versie" index="kiesI" />
+      </concept>
+      <concept id="993564824856099500" name="regelspraak.structure.EnkeleVoorwaarde" flags="ng" index="2z5Mdt">
+        <child id="993564824856119364" name="expr" index="2z5D6P" />
+        <child id="993564824856103627" name="predicaat" index="2z5HcU" />
+      </concept>
+      <concept id="7004474094244907415" name="regelspraak.structure.AbstracteRegelVersie" flags="ngI" index="2KO2Q4">
+        <child id="5118870146818423030" name="geldig" index="1nvPAL" />
+      </concept>
+      <concept id="5696347358893285502" name="regelspraak.structure.ISelectie" flags="ngI" index="137dR0">
+        <child id="6774523643279660910" name="selector" index="eaaoM" />
+        <child id="9009487889885775372" name="object" index="pQQuc" />
+      </concept>
+      <concept id="5308348422954264413" name="regelspraak.structure.RegelsetRef" flags="ng" index="17AEQp">
+        <reference id="5308348422954265446" name="set" index="17AE6y" />
+      </concept>
+      <concept id="1480463129960505090" name="regelspraak.structure.RegelVersie" flags="ng" index="1wO7pt">
+        <child id="1480463129960505094" name="statement" index="1wO7pp" />
+      </concept>
+      <concept id="1024280404748017953" name="regelspraak.structure.UnivOnderwerp" flags="ng" index="3_kdyS" />
+      <concept id="1024280404748429508" name="regelspraak.structure.Onderwerp" flags="ngI" index="3_mD5t">
+        <reference id="7647149462025448902" name="base" index="Qu8KH" />
+      </concept>
+      <concept id="1024280404748412380" name="regelspraak.structure.Selectie" flags="ng" index="3_mHL5" />
+      <concept id="9154144551704438971" name="regelspraak.structure.Regel" flags="ng" index="1HSql3" />
+    </language>
+    <language id="08d6f877-03cc-45d3-b03c-d6f786266853" name="bronspraak">
+      <concept id="6920933390215181372" name="bronspraak.structure.Metatag" flags="ng" index="2dTAK3">
+        <property id="6920933390215181421" name="value" index="2dTALi" />
+      </concept>
+      <concept id="2068601279767130269" name="bronspraak.structure.IHaveMetatags" flags="ngI" index="1MLhlU">
+        <child id="6920933390215243750" name="metatags" index="2dTRZp" />
+      </concept>
+    </language>
+    <language id="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0" name="testspraak">
+      <concept id="6438506741833356929" name="testspraak.structure.InvoerSubBericht" flags="ng" index="27HnP5">
+        <child id="6438506741833356938" name="veld" index="27HnPe" />
+      </concept>
+      <concept id="6438506741833356942" name="testspraak.structure.UitvoerSubBericht" flags="ng" index="27HnPa">
+        <child id="6438506741833356949" name="veldVerwachting" index="27HnPh" />
+      </concept>
+      <concept id="8803452945676232781" name="testspraak.structure.ServiceTestSet" flags="ng" index="3dMsQ2">
+        <property id="8803452945676232903" name="simpleName" index="3dMsO8" />
+        <reference id="2486720710136334110" name="entrypoint" index="2_MxLh" />
+        <child id="8803452945676245612" name="testGevallen" index="3dMzYz" />
+      </concept>
+      <concept id="8803452945676232785" name="testspraak.structure.ServiceTest" flags="ng" index="3dMsQu">
+        <child id="8803452945676554669" name="invoer" index="3dLJhy" />
+        <child id="6404605531306943378" name="voorspelling" index="1GVd_u" />
+      </concept>
+      <concept id="8803452945675745177" name="testspraak.structure.TestInvoerBericht" flags="ng" index="3dW_9m">
+        <property id="8803452945675786235" name="jaar" index="3dWN8O" />
+        <child id="8803452945675838248" name="veld" index="3dWWrB" />
+      </concept>
+      <concept id="8803452945675838251" name="testspraak.structure.TestBerichtVeld" flags="ng" index="3dWWr$">
+        <reference id="8803452945675844916" name="veld" index="3dWXzV" />
+      </concept>
+      <concept id="8803452945675845067" name="testspraak.structure.ComplexTestBerichtVeld" flags="ng" index="3dWXw4">
+        <child id="6438506741833356934" name="subs" index="27HnP2" />
+      </concept>
+      <concept id="8803452945675844814" name="testspraak.structure.ElementairTestBerichtVeld" flags="ng" index="3dWX$1">
+        <property id="8803452945675844818" name="waarde" index="3dWX$t" />
+      </concept>
+      <concept id="6404605531307053492" name="testspraak.structure.TestUitvoerBericht" flags="ng" index="1GVEHS">
+        <property id="1749813525838931583" name="consistentieverwachting" index="1Axj1u" />
+        <property id="6404605531307070318" name="resultaatcode" index="1GVIAy" />
+        <property id="6404605531307070481" name="resultaatmelding" index="1GVIVt" />
+        <child id="6404605531307076153" name="veld" index="1GVH3P" />
+      </concept>
+      <concept id="6404605531307076169" name="testspraak.structure.ComplexeVeldVerwachting" flags="ng" index="1GVH25">
+        <child id="6438506741833356945" name="subs" index="27HnPl" />
+      </concept>
+      <concept id="6404605531307076159" name="testspraak.structure.ElementaireVeldVerwachting" flags="ng" index="1GVH3N">
+        <property id="6404605531307076166" name="waarde" index="1GVH2a" />
+      </concept>
+      <concept id="6404605531307070317" name="testspraak.structure.VeldVerwachting" flags="ng" index="1GVIAx">
+        <reference id="6404605531307076156" name="veld" index="1GVH3K" />
+      </concept>
+    </language>
+    <language id="471364db-8078-4933-b2ef-88232bfa34fc" name="gegevensspraak">
+      <concept id="653687101152179938" name="gegevensspraak.structure.ObjectModel" flags="ng" index="2bv6Cm">
+        <child id="653687101152179939" name="elem" index="2bv6Cn" unordered="true" />
+      </concept>
+      <concept id="653687101152178956" name="gegevensspraak.structure.Attribuut" flags="ng" index="2bv6ZS">
+        <child id="5917060184181247471" name="type" index="1EDDcc" />
+      </concept>
+      <concept id="653687101152157008" name="gegevensspraak.structure.ObjectType" flags="ng" index="2bvS6$">
+        <child id="653687101152189607" name="elem" index="2bv01j" unordered="true" />
+      </concept>
+      <concept id="5478077304742085581" name="gegevensspraak.structure.Geldigheidsperiode" flags="ng" index="2ljwA5" />
+      <concept id="7037334947758876146" name="gegevensspraak.structure.Parameterset" flags="ng" index="vdosF">
+        <child id="7037334947758876149" name="toekenning" index="vdosG" unordered="true" />
+        <child id="3122098214253204654" name="geldig" index="3H8BXA" />
+      </concept>
+      <concept id="2800963173597667853" name="gegevensspraak.structure.Parameter" flags="ng" index="2DSAsB">
+        <child id="5917060184181634509" name="type" index="1ERmGI" />
+      </concept>
+      <concept id="8989128614612178023" name="gegevensspraak.structure.Naamwoord" flags="ngI" index="16ZtyY">
+        <property id="8989128614612178052" name="isOnzijdig" index="16Ztxt" />
+      </concept>
+      <concept id="558527188464633210" name="gegevensspraak.structure.AbstractNumeriekeLiteral" flags="ng" index="3e5kNY">
+        <property id="558527188465081158" name="waarde" index="3e6Tb2" />
+      </concept>
+      <concept id="5917060184176395023" name="gegevensspraak.structure.Parametertoekenning" flags="ng" index="1Er9RG">
+        <reference id="5917060184176396258" name="param" index="1Er9$1" />
+        <child id="2445565176094168041" name="waarde" index="HQftV" />
+      </concept>
+      <concept id="5917060184181247326" name="gegevensspraak.structure.NumeriekType" flags="ng" index="1EDDeX" />
+      <concept id="5917060184181965945" name="gegevensspraak.structure.NumeriekeLiteral" flags="ng" index="1EQTEq" />
+      <concept id="3257175120315973651" name="gegevensspraak.structure.AbstractNumeriekType" flags="ng" index="3GBOYg">
+        <property id="3257175120318322318" name="decimalen" index="3GST$d" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="d8af31be-1847-4d5b-8686-78e232d4e0f8" name="servicespraak">
+      <concept id="3470082797177816366" name="servicespraak.structure.RestrictedDatatype" flags="ng" index="2OB35">
+        <child id="3470082797177809500" name="restricties" index="2OxYR" />
+      </concept>
+      <concept id="3470082797177568556" name="servicespraak.structure.PredefinedBerichtDataType" flags="ng" index="2R$z7">
+        <property id="3470082797177593129" name="predef" index="2RIz2" />
+      </concept>
+      <concept id="3470082797177561953" name="servicespraak.structure.BerichtDatatypeDefinitie" flags="ng" index="2R_qa">
+        <child id="8943333957934572437" name="base" index="2Evv_c" />
+      </concept>
+      <concept id="3470082797188803840" name="servicespraak.structure.DecimalenRestrictie" flags="ng" index="3ytzF">
+        <property id="3470082797188803843" name="cijfersTotaal" index="3ytzC" />
+        <property id="3470082797188803844" name="achterKomma" index="3ytzJ" />
+      </concept>
+      <concept id="1482961590271922253" name="servicespraak.structure.BerichtType" flags="ng" index="2785BS">
+        <reference id="2657656834086768020" name="object" index="1Ig6_r" />
+        <child id="1482961590271922261" name="veld" index="2785Bw" />
+      </concept>
+      <concept id="1482961590271922255" name="servicespraak.structure.Uitvoerberichtmapping" flags="ng" index="2785BU" />
+      <concept id="1482961590271922254" name="servicespraak.structure.Invoerberichtmapping" flags="ng" index="2785BV" />
+      <concept id="2142746120988295507" name="servicespraak.structure.Service" flags="ng" index="2kTx5H">
+        <property id="8879350159213016781" name="componentnaam" index="2R2JWx" />
+        <property id="8879350159213016767" name="projectnaam" index="2R2JXj" />
+        <property id="235016714107005849" name="serviceNamespace" index="3jS_BH" />
+        <property id="4118141430565356530" name="gebruikKeyValuePair" index="3mz50X" />
+        <property id="2657656834115692067" name="xsdNamespace" index="1CIKbG" />
+        <child id="7010317595068611080" name="mapping" index="21XpMX" />
+        <child id="3470082797177933968" name="datatype" index="2P2lV" />
+        <child id="2486720710064795935" name="entrypoints" index="2xxADg" />
+      </concept>
+      <concept id="8244924399861867440" name="servicespraak.structure.ParameterSetRef" flags="ng" index="2nR7yY">
+        <reference id="8244924399861867441" name="ref" index="2nR7yZ" />
+      </concept>
+      <concept id="2486720710064725693" name="servicespraak.structure.Entrypoint" flags="ng" index="2xwknM">
+        <property id="2486720710064788223" name="gebruikConsistentieVlag" index="2xx$AK" />
+        <property id="2486720710071299815" name="xmlRekenmomentVeld" index="2xUFmC" />
+        <property id="2486720710071297875" name="rekenmomentIsDag" index="2xUFKs" />
+        <property id="2486720710071297889" name="xmlBerichtUitType" index="2xUFKI" />
+        <property id="2486720710071297888" name="xmlBerichtInType" index="2xUFKJ" />
+        <property id="8267513940666745543" name="xmlBerichtType" index="1bH1VB" />
+        <property id="3136425091197698285" name="acroniem" index="3EWdbH" />
+        <child id="489580120366705953" name="regelgroep" index="2dhVIB" />
+        <child id="2486720710073429038" name="paramset" index="2x2ztx" />
+        <child id="2486720710071270541" name="uitvoer" index="2xTiv2" />
+        <child id="2486720710071270540" name="invoer" index="2xTiv3" />
+      </concept>
+      <concept id="8880636053084576132" name="servicespraak.structure.ComplexInvoerBerichtVeld" flags="ng" index="KB4bO" />
+      <concept id="8880636053084603182" name="servicespraak.structure.ComplexUitvoerBerichtVeld" flags="ng" index="KBdxu" />
+      <concept id="8880636053083348511" name="servicespraak.structure.ComplexBerichtVeld" flags="ng" index="KGglJ">
+        <property id="8614874206088486545" name="maxOccurs" index="h6B3z" />
+        <reference id="8880636053083348520" name="sub" index="KGglo" />
+      </concept>
+      <concept id="8880636053083068744" name="servicespraak.structure.InvoerParameterVeld" flags="ng" index="KHk8S">
+        <property id="7023384972283437353" name="optioneel" index="3oJn92" />
+      </concept>
+      <concept id="3670915702568119714" name="servicespraak.structure.BerichtDataTypeRef" flags="ng" index="3x25J3">
+        <reference id="3670915702568123411" name="ref" index="3x24DM" />
+      </concept>
+      <concept id="3670915702568636606" name="servicespraak.structure.DataTypeMapping" flags="ng" index="3AW6rv">
+        <child id="8847999994590430363" name="extern" index="2KWIQ6" />
+        <child id="3670915702568638455" name="intern" index="3AW66m" />
+      </concept>
+      <concept id="2657656834081800124" name="servicespraak.structure.DirectInvoerAttribuut" flags="ng" index="1IH5HN" />
+      <concept id="2657656834081829135" name="servicespraak.structure.DirectUitvoerAttribuut" flags="ng" index="1IHXn0" />
+      <concept id="2657656834082458620" name="servicespraak.structure.DirectAttribuut" flags="ng" index="1IJyWN">
+        <reference id="2657656834082458621" name="attr" index="1IJyWM" />
+      </concept>
+      <concept id="2460921590243167177" name="servicespraak.structure.UitvoerParameterVeld" flags="ng" index="3OFBzG">
+        <property id="2460921590243169820" name="alleenUitvoerenAlsGebruikt" index="3OFAkT" />
+      </concept>
+      <concept id="2460921590243160572" name="servicespraak.structure.ParameterVeld" flags="ng" index="3OFCbp">
+        <reference id="2460921590243163935" name="param" index="3OFCKU" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2785BV" id="h0QVkCbZd3">
+    <property role="TrG5h" value="Bericht__invoer" />
+    <ref role="1Ig6_r" node="h0QVkCbZ5Q" resolve="Bericht" />
+    <node concept="1IH5HN" id="h0QVkH6H1K" role="2785Bw">
+      <ref role="1IJyWM" node="h0QVkH6GWL" resolve="decimaal getal" />
+    </node>
+  </node>
+  <node concept="2785BU" id="h0QVkCbZdc">
+    <property role="TrG5h" value="Bericht__uitvoer" />
+    <ref role="1Ig6_r" node="h0QVkCbZ5Q" resolve="Bericht" />
+    <node concept="1IHXn0" id="h0QVkH6H2j" role="2785Bw">
+      <ref role="1IJyWM" node="h0QVkH6GWL" resolve="decimaal getal" />
+    </node>
+  </node>
+  <node concept="2kTx5H" id="h0QVkCbZdl">
+    <property role="TrG5h" value="keyvaluepairtypeparametermapping" />
+    <property role="2R2JXj" value="kvp" />
+    <property role="2R2JWx" value="kvp" />
+    <property role="3mz50X" value="true" />
+    <property role="3jS_BH" value="http://example.org" />
+    <property role="1CIKbG" value="https://service.example.org/Keyvaluepairtypeparametermapping" />
+    <node concept="2OB35" id="h0QVkH6H6B" role="2P2lV">
+      <property role="TrG5h" value="customDecimal" />
+      <node concept="2R$z7" id="h0QVkH6H7h" role="2Evv_c">
+        <property role="2RIz2" value="30CduGMXE5a/decimal" />
+      </node>
+      <node concept="3ytzF" id="h0QVkH6H7l" role="2OxYR">
+        <property role="3ytzC" value="8" />
+        <property role="3ytzJ" value="2" />
+      </node>
+    </node>
+    <node concept="3AW6rv" id="h0QVkH6H83" role="21XpMX">
+      <node concept="1EDDeX" id="h0QVkH6H9t" role="3AW66m">
+        <property role="3GST$d" value="2" />
+      </node>
+      <node concept="3x25J3" id="h0QVkH6H8Q" role="2KWIQ6">
+        <ref role="3x24DM" node="h0QVkH6H6B" resolve="customDecimal" />
+      </node>
+    </node>
+    <node concept="2xwknM" id="692EwaiMMZW" role="2xxADg">
+      <property role="TrG5h" value="DecisionService" />
+      <property role="3EWdbH" value="rskeyvaluepairtypeparametermapping" />
+      <property role="2xx$AK" value="true" />
+      <property role="2xUFmC" value="jaar" />
+      <property role="2xUFKs" value="false" />
+      <property role="1bH1VB" value="Message" />
+      <property role="2xUFKJ" value="Request" />
+      <property role="2xUFKI" value="Response" />
+      <node concept="KB4bO" id="h0QVkCbZdm" role="2xTiv3">
+        <property role="TrG5h" value="bericht" />
+        <property role="h6B3z" value="1" />
+        <ref role="KGglo" node="h0QVkCbZd3" resolve="Bericht__invoer" />
+      </node>
+      <node concept="KB4bO" id="h0QVkHuczm" role="2xTiv3">
+        <property role="TrG5h" value="paramters" />
+        <property role="h6B3z" value="1" />
+        <ref role="KGglo" node="h0QVkHucyv" resolve="Parameter__invoer" />
+      </node>
+      <node concept="KBdxu" id="h0QVkCbZeg" role="2xTiv2">
+        <property role="TrG5h" value="bericht" />
+        <property role="h6B3z" value="1" />
+        <ref role="KGglo" node="h0QVkCbZdc" resolve="Bericht__uitvoer" />
+      </node>
+      <node concept="KBdxu" id="h0QVkHkAB8" role="2xTiv2">
+        <property role="TrG5h" value="parameters" />
+        <property role="h6B3z" value="1" />
+        <ref role="KGglo" node="h0QVkHkACv" resolve="Parameters__uitvoer" />
+      </node>
+      <node concept="2nR7yY" id="692EwaiMMZX" role="2x2ztx">
+        <ref role="2nR7yZ" node="h0QVkHkAxK" resolve="Paramters" />
+      </node>
+      <node concept="17AEQp" id="4xKWB0uLGH" role="2dhVIB">
+        <ref role="17AE6y" node="h0QVkCbZ6D" resolve="Regels" />
+      </node>
+    </node>
+  </node>
+  <node concept="3dMsQ2" id="h0QVkCbZiH">
+    <property role="3dMsO8" value="KeyValuePairTypeParameterMapping" />
+    <property role="TrG5h" value="KeyValuePairTypeMapping kopie (1)" />
+    <ref role="2_MxLh" node="692EwaiMMZW" resolve="DecisionService" />
+    <node concept="2dTAK3" id="710NJoSSCXF" role="2dTRZp">
+      <property role="TrG5h" value="issue" />
+      <property role="2dTALi" value="ALEF-3586" />
+    </node>
+    <node concept="3dMsQu" id="h0QVkCbZiI" role="3dMzYz">
+      <property role="TrG5h" value="Invoer met parameter is gelijk aan uitvoer" />
+      <node concept="3dW_9m" id="h0QVkCbZiJ" role="3dLJhy">
+        <property role="3dWN8O" value="2000" />
+        <node concept="3dWXw4" id="h0QVkCbZiK" role="3dWWrB">
+          <ref role="3dWXzV" node="h0QVkCbZdm" resolve="bericht" />
+          <node concept="27HnP5" id="h0QVkCbZiL" role="27HnP2">
+            <node concept="3dWX$1" id="h0QVkH6H3Z" role="27HnPe">
+              <property role="3dWX$t" value="1.34" />
+              <ref role="3dWXzV" node="h0QVkH6H1K" resolve="decimaalGetal" />
+            </node>
+          </node>
+        </node>
+        <node concept="3dWXw4" id="h0QVkHuen8" role="3dWWrB">
+          <ref role="3dWXzV" node="h0QVkHuczm" resolve="paramters" />
+          <node concept="27HnP5" id="h0QVkHueoM" role="27HnP2">
+            <node concept="3dWX$1" id="h0QVkHueoX" role="27HnPe">
+              <property role="3dWX$t" value="25" />
+              <ref role="3dWXzV" node="h0QVkHucyw" resolve="maximaalDecimaalGetal" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1GVEHS" id="h0QVkCbZiN" role="1GVd_u">
+        <property role="1Axj1u" value="true" />
+        <property role="1GVIAy" value="1" />
+        <property role="1GVIVt" value="SERVICE_OK" />
+        <node concept="1GVH25" id="h0QVkCbZiO" role="1GVH3P">
+          <ref role="1GVH3K" node="h0QVkCbZeg" resolve="bericht" />
+          <node concept="27HnPa" id="h0QVkCbZiP" role="27HnPl">
+            <node concept="1GVH3N" id="h0QVkH6H4n" role="27HnPh">
+              <property role="1GVH2a" value="1.34" />
+              <ref role="1GVH3K" node="h0QVkH6H2j" resolve="decimaalGetal" />
+            </node>
+          </node>
+        </node>
+        <node concept="1GVH25" id="h0QVkHueE5" role="1GVH3P">
+          <ref role="1GVH3K" node="h0QVkHkAB8" resolve="parameters" />
+          <node concept="27HnPa" id="h0QVkHueEa" role="27HnPl">
+            <node concept="1GVH3N" id="h0QVkHueEc" role="27HnPh">
+              <property role="1GVH2a" value="25" />
+              <ref role="1GVH3K" node="h0QVkHkACw" resolve="maximaalDecimaalGetal" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2bv6Cm" id="h0QVkCbZ5I">
+    <property role="TrG5h" value="Objectmodel" />
+    <node concept="2DSAsB" id="h0QVkHkAyu" role="2bv6Cn">
+      <property role="TrG5h" value="MAXIMAAL DECIMAAL GETAL" />
+      <node concept="1EDDeX" id="h0QVkHkAza" role="1ERmGI">
+        <property role="3GST$d" value="2" />
+      </node>
+    </node>
+    <node concept="1uxNW$" id="h0QVkHkAyk" role="2bv6Cn" />
+    <node concept="2bvS6$" id="h0QVkCbZ5Q" role="2bv6Cn">
+      <property role="TrG5h" value="Bericht" />
+      <node concept="2bv6ZS" id="h0QVkH6GWL" role="2bv01j">
+        <property role="TrG5h" value="decimaal getal" />
+        <property role="16Ztxt" value="true" />
+        <node concept="1EDDeX" id="h0QVkH6GXp" role="1EDDcc">
+          <property role="3GST$d" value="2" />
+        </node>
+      </node>
+    </node>
+    <node concept="1uxNW$" id="h0QVkCbZ5J" role="2bv6Cn" />
+  </node>
+  <node concept="2bQVlO" id="h0QVkCbZ6D">
+    <property role="TrG5h" value="Regels" />
+    <node concept="1HSql3" id="h0QVkCbZ6J" role="1HSqhF">
+      <property role="TrG5h" value="Getal is gevuld" />
+      <node concept="1wO7pt" id="h0QVkCbZ6L" role="kiesI">
+        <node concept="2boe1W" id="h0QVkCbZ6M" role="1wO7pp">
+          <node concept="28FMkn" id="h0QVkCbZ71" role="1wO7i6">
+            <node concept="2z5Mdt" id="h0QVkCbZ79" role="28FN$S">
+              <node concept="3_mHL5" id="h0QVkCbZ7a" role="2z5D6P">
+                <node concept="c2t0s" id="h0QVkHrJoW" role="eaaoM">
+                  <ref role="Qu8KH" node="h0QVkH6GWL" resolve="decimaal getal" />
+                </node>
+                <node concept="3_kdyS" id="h0QVkCbZ7m" role="pQQuc">
+                  <ref role="Qu8KH" node="h0QVkCbZ5Q" resolve="Bericht" />
+                </node>
+              </node>
+              <node concept="28IAyu" id="h0QVkHuew2" role="2z5HcU">
+                <property role="28IApM" value="5brrC35IcXw/LE" />
+                <node concept="2boetW" id="h0QVkHuewK" role="28IBCi">
+                  <ref role="2boetX" node="h0QVkHkAyu" resolve="MAXIMAAL DECIMAAL GETAL" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2ljwA5" id="h0QVkCbZ6O" role="1nvPAL" />
+      </node>
+    </node>
+    <node concept="1uxNW$" id="h0QVkCbZ6E" role="1HSqhF" />
+  </node>
+  <node concept="vdosF" id="h0QVkHkAxK">
+    <property role="TrG5h" value="Paramters" />
+    <node concept="1Er9RG" id="h0QVkHkAxM" role="vdosG">
+      <ref role="1Er9$1" node="h0QVkHkAyu" resolve="MAXIMAAL DECIMAAL GETAL" />
+      <node concept="1EQTEq" id="h0QVkHkAC$" role="HQftV">
+        <property role="3e6Tb2" value="42,7" />
+      </node>
+    </node>
+    <node concept="2ljwA5" id="h0QVkHkAxL" role="3H8BXA" />
+  </node>
+  <node concept="2785BU" id="h0QVkHkACv">
+    <property role="TrG5h" value="Parameters__uitvoer" />
+    <node concept="3OFBzG" id="h0QVkHkACw" role="2785Bw">
+      <property role="3OFAkT" value="true" />
+      <ref role="3OFCKU" node="h0QVkHkAyu" resolve="MAXIMAAL DECIMAAL GETAL" />
+    </node>
+  </node>
+  <node concept="2785BV" id="h0QVkHucyv">
+    <property role="TrG5h" value="Parameter__invoer" />
+    <node concept="KHk8S" id="h0QVkHucyw" role="2785Bw">
+      <property role="3oJn92" value="true" />
+      <ref role="3OFCKU" node="h0QVkHkAyu" resolve="MAXIMAAL DECIMAAL GETAL" />
+    </node>
+  </node>
+</model>
+

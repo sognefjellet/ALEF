@@ -1,0 +1,51 @@
+<html>
+<head>
+    <style type="text/css" rel="stylesheet">
+        {{style}}
+        </style>
+    <link rel="stylesheet" href="../testresult-style.css"/>
+</head>
+<body>
+<div class="header">
+    <img src="../logo.png"/>
+</div>
+<a href="../index.html">index</a> / <a href="index.html">{{ package.group.configuration.name }}</a> / <a href="{{ package.sanitizedName }}.html">{{ package.name }}</a>
+<h1>Summary</h1>
+<p>Duration: {{ formattedDuration }}</p>
+<p>Tests: {{ tests }}</p>
+<p>Passed: {{ passed }}</p>
+<p>Skipped: {{ skipped }}</p>
+<p>Failed: {{ failed }}</p>
+
+<h1>Test result : {{ name }}</h1>
+<table>
+    <tr>
+        <th>Test name</th>
+        <th>Duration</th>
+        <th>Status</th>
+    </tr>
+    {{#testCases}}
+    <tr>
+        <td>{{ name }}</td>
+        <td>{{ formattedDuration }}</td>
+        <td>
+            {{#failure}}
+                <a href="Failure_{{ sanitizedName }}.html">
+            {{/failure}}
+            {{#error}}
+                <a href="Error_{{ sanitizedName }}.html">
+            {{/error}}
+            {{ status }}
+            {{#failure}}
+            </a>
+            {{/failure}}
+            {{#error}}
+            </a>
+            {{/error}}
+
+        </td>
+    </tr>
+    {{/testCases}}
+</table>
+</body>
+</html>

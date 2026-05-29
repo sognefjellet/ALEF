@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectHygiene">
+    <option name="version" value="82" />
+    <option name="settings">
+      <map>
+        <entry key="beslistabelspraak.projecthygiene.BeslistabelStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="beslistabelspraak.projecthygiene.BeslistabelStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="beslistabelspraak.projecthygiene.BeslistabelVersieStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="beslistabelspraak.projecthygiene.BeslistabelVersieStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="besturingspraak.projecthygiene.RegelgroepWordtNietGebruiktInFlow">
+          <value>
+            <SettingState>
+              <option name="identifier" value="besturingspraak.projecthygiene.RegelgroepWordtNietGebruiktInFlow" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="besturingspraak.projecthygiene.TaskStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="besturingspraak.projecthygiene.TaskStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.AttribuutStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.AttribuutStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.AttribuutWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.AttribuutWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.BasisEenheidStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.BasisEenheidStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DagsoortStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DagsoortStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DagsoortWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DagsoortWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DimensieStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DimensieStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DimensieWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DimensieWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DomeinStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DomeinStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.DomeinWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.DomeinWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.EenheidSysteemStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.EenheidSysteemStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.EenheidsSysteemWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.EenheidsSysteemWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.FeitTypeStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.FeitTypeStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.FeitTypeWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.FeitTypeWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.KenmerkStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.KenmerkStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.KenmerkWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.KenmerkWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.ObjectTypeStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.ObjectTypeStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.ObjectTypeWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.ObjectTypeWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.ParameterStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.ParameterStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="gegevensspraak.projecthygiene.ParameterWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="gegevensspraak.projecthygiene.ParameterWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="regelspraak.projecthygiene.MaxAantalRegelsInRegelgroep">
+          <value>
+            <SettingState>
+              <option name="identifier" value="regelspraak.projecthygiene.MaxAantalRegelsInRegelgroep" />
+              <option name="maxValue" value="25" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="regelspraak.projecthygiene.MinAantalRegelsInRegelgroep">
+          <value>
+            <SettingState>
+              <option name="identifier" value="regelspraak.projecthygiene.MinAantalRegelsInRegelgroep" />
+              <option name="minValue" value="1" />
+              <option name="checkType" value="ERROR" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="regelspraak.projecthygiene.RegelStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="regelspraak.projecthygiene.RegelStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="regelspraak.projecthygiene.RegelVersieStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="regelspraak.projecthygiene.RegelVersieStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="servicespraak.projecthygiene.EnumWaardeMappingStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="servicespraak.projecthygiene.EnumWaardeMappingStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="servicespraak.projecthygiene.EnumeratiemappingWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="servicespraak.projecthygiene.EnumeratiemappingWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="servicespraak.projecthygiene.FlowWordtNietGebruiktInFlowOfEntrypoint">
+          <value>
+            <SettingState>
+              <option name="identifier" value="servicespraak.projecthygiene.FlowWordtNietGebruiktInFlowOfEntrypoint" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="servicespraak.projecthygiene.InvoerBerichtMappingWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="servicespraak.projecthygiene.InvoerBerichtMappingWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="servicespraak.projecthygiene.UitvoerBerichtMappingWordtNietGebruikt">
+          <value>
+            <SettingState>
+              <option name="identifier" value="servicespraak.projecthygiene.UitvoerBerichtMappingWordtNietGebruikt" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="testspraak.projecthygiene.MinAantalTestgevallenInTestSet">
+          <value>
+            <SettingState>
+              <option name="identifier" value="testspraak.projecthygiene.MinAantalTestgevallenInTestSet" />
+              <option name="minValue" value="1" />
+              <option name="checkType" value="ERROR" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="testspraak.projecthygiene.MinAantalTestsInServiceTestSet">
+          <value>
+            <SettingState>
+              <option name="identifier" value="testspraak.projecthygiene.MinAantalTestsInServiceTestSet" />
+              <option name="minValue" value="1" />
+              <option name="checkType" value="ERROR" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="testspraak.projecthygiene.ServiceTestStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="testspraak.projecthygiene.ServiceTestStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+        <entry key="testspraak.projecthygiene.TestGevalStaatInCommentaar">
+          <value>
+            <SettingState>
+              <option name="identifier" value="testspraak.projecthygiene.TestGevalStaatInCommentaar" />
+              <option name="checkType" value="WARNING" />
+            </SettingState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

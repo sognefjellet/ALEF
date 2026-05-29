@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="alef.devkit" uuid="d07fa9c5-678d-4a9b-9eaf-b1b8c569b820">
+  <exported-language name="09c04f52-88c5-4bd6-a481-cabab9f61ff5(contexts)" />
+  <exported-language name="471364db-8078-4933-b2ef-88232bfa34fc(gegevensspraak)" />
+  <exported-language name="7bbaf860-5f96-44b4-9731-6e00ae137ece(regelspraak)" />
+  <exported-language name="7b05b09e-3ac1-4a27-83e2-e4e1a5f17cf3(beslistabelspraak)" />
+  <exported-language name="65239ca4-9057-41f8-999d-97fa1a60b298(besturingspraak)" />
+  <exported-language name="d8af31be-1847-4d5b-8686-78e232d4e0f8(servicespraak)" />
+  <exported-language name="8bc962c0-cb3c-49f0-aa03-23c3bc0304b0(testspraak)" />
+  <exported-language name="c40e126b-a0e9-42bb-b903-9b5fd0b050d2(gegevensspraak.tijd)" />
+  <exported-language name="299845ab-8a41-470d-b76f-9736f9b49925(regelspraak.tijd)" />
+  <exported-language name="75b1dcc9-4d65-4537-bd22-03b6cf247f5f(testspraak.tijd)" />
+  <exported-language name="26c003b8-2642-44b1-8d28-63f478da851b(servicespraak.tijd)" />
+  <exported-language name="a2c3612e-2e72-4fb7-b803-0009711003f5(merlinGegevens)" />
+  <exported-language name="7af85130-d03a-45a6-b998-0f0896816648(merlinRegels)" />
+  <exported-language name="b1f8acd7-6d11-487b-b34d-5c390752a1bc(merlinTabellen)" />
+  <exported-language name="4e745045-7d54-4362-ad29-5bd0cda24944(merlinBesturing)" />
+  <exported-language name="2d1a603f-d3a3-4833-be8d-f1e1edc42693(merlinTests)" />
+  <exported-language name="d002ebf9-b7f0-46ef-afd9-b9dfc5436ad0(merlinBuild)" />
+  <exported-language name="db7aa0c3-1d51-47ec-ab93-89e0cbae9e47(merlinGegevens.tijd)" />
+  <exported-language name="8f48a912-bed6-465c-aa56-b7c3880b762b(merlinRegels.tijd)" />
+  <exported-language name="0f770466-9713-4266-aa3d-b37d486411ec(merlinService.tijd)" />
+  <exported-language name="fddd88e2-5ac0-43ee-83ad-b71610c0c2e9(merlinTests.tijd)" />
+  <exported-language name="f1fde5ac-c94f-4400-a54e-227925768f25(testNaarUnittest)" />
+  <exported-language name="f21369f7-7e7f-4a03-a372-565160d29d2b(merlinBaseExt)" />
+  <exported-language name="4870dde3-9d34-4a2f-b423-f23a5af25166(servicetestNaarJson)" />
+  <exported-language name="dd4c0bf2-9ffb-4d92-ab71-559516bb542f(servicetestNaarXml)" />
+  <exported-language name="5215575b-33d7-4f85-818c-19de6ecac80d(servicetestNaarJson.tijd)" />
+  <exported-language name="6494aba8-a154-4ad7-9bae-973ee96ec409(servicetestNaarXml.tijd)" />
+  <exported-language name="ba4e7906-3f6b-4144-a385-91e72898fee4(serviceNaarOpenApi.tijd)" />
+  <exported-language name="c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)" />
+  <exported-language name="8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)" />
+  <exported-language name="51f8c68a-90ac-4dbf-b58a-c9e9db784c81(xml.schema)" />
+  <exported-language name="08d6f877-03cc-45d3-b03c-d6f786266853(bronspraak)" />
+  <exported-language name="b2fc4154-1657-4d74-8828-c55b57a96ecd(rapporten)" />
+  <exported-language name="9a244687-dfa9-4fe1-be0a-b7a1c754e930(buildAlefProject)" />
+  <exported-language name="4f7705db-6cde-4dd2-bae3-c8d8801d8324(vrijspraak)" />
+  <exported-solutions>
+    <exported-solution>f5d91e37-b444-4afe-b345-11a4cc4fc117(spraken.genplan)</exported-solution>
+    <exported-solution>899a0a6a-566f-4976-b382-4766d9c4f8b4(unittest.runtime)</exported-solution>
+    <exported-solution>8270cb09-651a-458a-9f4e-86e3e4423c92(standaardFuncties)</exported-solution>
+    <exported-solution>d9eb44be-7dbc-40d2-ae81-5909d4d23337(serviceTest.runtime)</exported-solution>
+    <exported-solution>09737df8-57b5-428f-9399-89f414a94263(alef.runtime)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:f9b683f4-52b2-4921-850d-0d00cf8a2e35(alef@genplan)" />
+</dev-kit>
+

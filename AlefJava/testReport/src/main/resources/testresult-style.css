@@ -1,0 +1,35 @@
+body {
+	font-family: sans-serif;
+	font-size: small;
+}
+
+h1 {
+	color: #01689b
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-size: small;
+}
+
+tr:nth-child(even){background-color: #DDEFF8;}
+
+th {
+  background-color: #01689b;
+  color: white;
+}
+
+.header {
+	display: block;
+	height: 100px;
+	text-align: center
+}
+.header img {
+	height: 100px;
+}

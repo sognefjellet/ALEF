@@ -1,0 +1,41 @@
+<html>
+<head>
+    <style type="text/css" rel="stylesheet">
+        {{style}}
+        </style>
+    <link rel="stylesheet" href="testresult-style.css"/>
+</head>
+<body>
+<div class="header">
+    <img src="logo.png"/>
+</div>
+<h1>Summary</h1>
+<p>Duration: {{ formattedDuration }}</p>
+<p>Tests: {{ tests }}</p>
+<p>Passed: {{ passed }}</p>
+<p>Skipped: {{ skipped }}</p>
+<p>Failed: {{ failed }}</p>
+
+<h1>Test result</h1>
+<table>
+    <tr>
+        <th>Group</th>
+        <th>Duration</th>
+        <th>Failed</th>
+        <th>Skipped</th>
+        <th>Pass</th>
+        <th>Total</th>
+    </tr>
+    {{#groups}}
+    <tr>
+        <td><a href="{{ configuration.name }}/index.html">{{ configuration.name }}</a></td>
+        <td>{{ formattedDuration }}</td>
+        <td>{{ failed }}</td>
+        <td>{{ skipped }}</td>
+        <td>{{ passed }}</td>
+        <td>{{ tests }}</td>
+    </tr>
+    {{/groups}}
+</table>
+</body>
+</html>

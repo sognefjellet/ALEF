@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:3300ab14-56f2-40ca-9ed6-d9336ae8e8be(migrationData)">
+  <persistence version="9" />
+  <languages />
+  <imports>
+    <import index="m234" ref="r:dab861ec-284c-4992-a98c-1e3b9c9dd555(regelspraak.structure)" implicit="true" />
+    <import index="xeu8" ref="r:60e358c3-3293-420e-bd4f-559af2524137(regelspraak.editor)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="3017733173184487099" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationDataEntity" flags="ng" index="ZsZFI">
+        <reference id="3017733173184487105" name="generatedMenu" index="ZsZEk" />
+        <reference id="3017733173184487102" name="conceptNode" index="ZsZFF" />
+      </concept>
+      <concept id="3017733173184487098" name="jetbrains.mps.lang.editor.structure.SmartRefMigrationData" flags="ng" index="ZsZFJ">
+        <child id="3017733173184487121" name="entities" index="ZsZE4" />
+      </concept>
+    </language>
+    <language id="9882f4ad-1955-46fe-8269-94189e5dbbf2" name="jetbrains.mps.lang.migration.util">
+      <concept id="7417095922908669705" name="jetbrains.mps.lang.migration.util.structure.StepData" flags="ng" index="2z5JpS">
+        <property id="1973338949477451252" name="script" index="3qqn2_" />
+        <child id="7417095922908725798" name="data" index="2z5Xdn" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="2z5JpS" id="6O4T7fcvI1O">
+    <property role="3qqn2_" value="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)/8" />
+    <node concept="ZsZFJ" id="6O4T7fcvI1f" role="2z5Xdn">
+      <node concept="ZsZFI" id="6O4T7fcvI1w" role="ZsZE4">
+        <ref role="ZsZFF" to="m234:1ibElXOqkku" resolve="OnderwerpRef" />
+        <ref role="ZsZEk" to="xeu8:6O4T7fcvI1q" resolve="OnderwerpRef_SmartReference" />
+      </node>
+      <node concept="ZsZFI" id="6O4T7fcvI1N" role="ZsZE4">
+        <ref role="ZsZFF" to="m234:$infi2sFI8" resolve="ConstanteRef" />
+        <ref role="ZsZEk" to="xeu8:6O4T7fcvI1H" resolve="ConstanteRef_SmartReference" />
+      </node>
+    </node>
+  </node>
+</model>
+

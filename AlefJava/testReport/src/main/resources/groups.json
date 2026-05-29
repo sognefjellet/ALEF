@@ -1,0 +1,20 @@
+[
+  {
+    "name" : "mps",
+    "pattern" : "TEST-jetbrains\\.mps.*\\.xml",
+    "packageLabel" : "Model",
+    "testClassLabel" : "TestSet"
+  },
+  {
+    "name" : "xml",
+    "pattern" : "TEST-((?!jetbrains\\.mps|unnamed-test).)*\\.xml",
+    "packageLabel" : "Model",
+    "testClassLabel" : "TestSet"
+  },
+  {
+    "name" : "blaze",
+    "pattern" : "TEST-unnamed-test.*\\.xml",
+    "packageLabel" : "Model",
+    "testClassLabel" : "TestSet"
+  }
+]

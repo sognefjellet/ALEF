@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite disabled="0" error="0" failures="0" tests="8" time="2.86">
+    <testcase classname="Testspraak_Test.Testsets.TestMetMeerdereJaren" name="RegelTest01" status="Passed" time="1.954"/>
+    <testcase classname="Testspraak_Test.Testsets.TestMetMeerdereJaren" name="RegelTest02" status="Passed" time="0.319"/>
+    <testcase classname="Testspraak_Test.Testsets.TestMetMeerdereJaren" name="RegelTest03" status="Passed" time="0.276"/>
+    <testcase classname="Testspraak_Test.Testsets.TestMetMeerdereJaren" name="RegelTest04" status="Passed" time="0.306"/>
+</testsuite>

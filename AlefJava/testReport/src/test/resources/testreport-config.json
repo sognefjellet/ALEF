@@ -1,0 +1,14 @@
+[
+   {
+       "name": "ALEF tests", 
+       "pattern": "TEST-(?:jetbrains\\.mps|ProjectCheck).*\\.xml",
+       "packageLabel": "Model",
+       "testClassLabel": "TestSet"
+   },
+   {
+       "name": "Service tests",
+       "pattern": "TEST-(?:.*Serv_.*)*\\.xml",
+       "packageLabel": "Model",
+       "testClassLabel": "TestSet"
+   }
+]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite disabled="0" error="0" failures="0" tests="8" time="0.55">
+    <testcase classname="Testspraak_Test.Testsets.ServiceTest" name="Servicetest20" status="Passed" time="0.339"/>
+    <testcase classname="Testspraak_Test.Testsets.ServiceTest" name="Servicetest21" status="Passed" time="0.073"/>
+    <testcase classname="Testspraak_Test.Testsets.ServiceTest" name="Servicetest22" status="Passed" time="0.073"/>
+    <testcase classname="Testspraak_Test.Testsets.ServiceTest" name="Servicetest23" status="Passed" time="0.067"/>
+</testsuite>

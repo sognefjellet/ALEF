@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="standaard.devkit" uuid="525148ce-aba3-4f4b-bed2-fd5e89dd2670">
+  <exported-language name="471364db-8078-4933-b2ef-88232bfa34fc(gegevensspraak)" />
+  <exported-language name="a2c3612e-2e72-4fb7-b803-0009711003f5(merlinGegevens)" />
+  <exported-solutions>
+    <exported-solution>25505bd6-536a-4b09-95e8-8fe23f7d5c28(standaard.genplan)</exported-solution>
+    <exported-solution>09737df8-57b5-428f-9399-89f414a94263(alef.runtime)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:722c3132-94da-44dc-a1f3-d38d782c7aba(standaardMerlin@genplan)" />
+</dev-kit>
+

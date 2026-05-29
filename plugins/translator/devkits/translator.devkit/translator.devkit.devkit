@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="translator.devkit" uuid="3d687654-ce51-492e-82ac-5898fafc23a3">
+  <exported-language name="bef79dc4-9060-4318-a10a-46eb2fa0f3b1(translator)" />
+  <exported-language name="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <exported-language name="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <exported-language name="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <exported-language name="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
+  <exported-language name="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
+  <exported-language name="a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)" />
+  <exported-language name="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+  <exported-language name="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <exported-language name="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
+  <exported-language name="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
+  <exported-language name="fc8d557e-5de6-4dd8-b749-aab2fb23aefc(jetbrains.mps.baseLanguage.overloadedOperators)" />
+  <exported-language name="515552c7-fcc0-4ab4-9789-2f3c49344e85(jetbrains.mps.baseLanguage.varVariable)" />
+  <exported-language name="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
+  <exported-language name="acfc188d-d5d6-4598-b370-6f4a983f05b2(jetbrains.mps.baseLanguage.methodReferences)" />
+  <extendedDevKits>
+    <extendedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</extendedDevKit>
+  </extendedDevKits>
+  <exported-solutions>
+    <exported-solution>de859d7b-3967-4dc6-800a-c7f85c414239(translator.runtime)</exported-solution>
+    <exported-solution>d8e9f689-ebf9-4dc1-b26b-cc0e8268cf07(translator.genplan)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:13159c5d-344f-4c44-8de1-d2aad23ba4f6(translator.genplan.genplan@genplan)" />
+</dev-kit>
+

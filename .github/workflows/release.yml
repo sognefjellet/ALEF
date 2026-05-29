@@ -1,0 +1,30 @@
+name: Release
+run-name: Release '${{ github.ref_name }}'
+on:
+  release:
+    types: [published]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v5
+    - name: JDK 21
+      uses: actions/setup-java@v5
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        cache: maven
+    - name: Build with Maven
+      run: xvfb-run -- mvn -B package
+    - name: Upload artifacts
+      run: |
+           gh release upload ${{github.event.release.tag_name}} \
+             build/artifacts/alef-distribution/alef-windows.zip \
+             build/artifacts/alef-distribution/alef-MacOSaarch64.zip \
+             build/artifacts/alef-distribution/alef-linux.tar.gz
+      env:
+        GITHUB_TOKEN: ${{ github.TOKEN }}
+    - name: Clean-up
+      run: rm -rf build

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dev-kit name="projecthygiene.devkit" uuid="800c7bf5-61d7-4693-b44d-98d817460667">
+  <exported-language name="9a426806-963f-464e-a66c-82a7bdb9cfde(projecthygiene)" />
+  <exported-language name="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <exported-language name="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <exported-language name="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
+  <exported-language name="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <exported-language name="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <exported-language name="f4ad079d-bc71-4ffb-9600-9328705cf998(jetbrains.mps.lang.descriptor)" />
+  <exported-language name="acfc188d-d5d6-4598-b370-6f4a983f05b2(jetbrains.mps.baseLanguage.methodReferences)" />
+  <exported-language name="774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)" />
+  <exported-language name="af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)" />
+  <exported-language name="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
+  <exported-solutions>
+    <exported-solution>8fbde41a-1e4d-4a35-b4ee-694c9b61c7ca(projecthygiene.runtime)</exported-solution>
+    <exported-solution>f147edaa-e96f-44b2-b70f-6a62e1c165b4(projecthygiene.genplan)</exported-solution>
+    <exported-solution>b13b6244-ea51-440e-bbb8-37e1276fefe2(projecthygiene.plugin)</exported-solution>
+  </exported-solutions>
+  <generation-plan model="r:39657fe2-31c1-44fe-81a3-c02f5e638462(projecthygiene.genplan.genplan)" />
+</dev-kit>
+

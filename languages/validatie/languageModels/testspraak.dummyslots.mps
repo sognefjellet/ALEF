@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:9c594f45-de1e-4b0c-9668-f3aaf6385637(testspraak.dummyslots)">
+  <persistence version="9" />
+  <attribute name="doNotGenerate" value="true" />
+  <languages>
+    <use id="7bbaf860-5f96-44b4-9731-6e00ae137ece" name="regelspraak" version="29" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports />
+  <registry>
+    <language id="7bbaf860-5f96-44b4-9731-6e00ae137ece" name="regelspraak">
+      <concept id="4807329109093794555" name="regelspraak.structure.LDummySlot" flags="ng" index="3Vmlax" />
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3Vmlax" id="4WdvrS6jWpA">
+    <property role="TrG5h" value="&lt;match&gt;" />
+  </node>
+</model>
+

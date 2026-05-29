@@ -1,0 +1,37 @@
+<html>
+<head>
+    <style type="text/css" rel="stylesheet">
+        {{style}}
+        </style>
+    <link rel="stylesheet" href="../testresult-style.css"/>
+</head>
+<body>
+<div class="header">
+    <img src="../logo.png"/>
+</div>
+<a href="../index.html">index</a> / <a href="index.html">{{ testCase.testClass.package.group.name }}</a> / <a href="{{ testCase.testClass.package.sanitizedName }}.html">{{ testCase.testClass.package.name }}</a> / <a href="{{ testCase.testClass.sanitizedName }}.html">{{ testCase.testClass.name }}</a>
+
+<h1>Test {{ testCase.name }} failed!</h1>
+<table>
+    <tr>
+        <th>Property</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>Type</td>
+        <td>{{ type }}</td>
+    </tr>
+    <tr>
+        <td>Message</td>
+        <td>{{ message }}</td>
+    </tr>
+
+    <tr>
+        <td>Text</td>
+        <td>{{ text }}</td>
+    </tr>
+
+</table>
+
+</body>
+</html>

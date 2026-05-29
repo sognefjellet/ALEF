@@ -1,0 +1,24 @@
+package nl.belastingdienst.brm.alef.servicetest_runtime.compare_xml;
+
+public class Pair<A, B> {
+    private final A a;
+    private final B b;
+
+    public Pair(A a, B b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    public A getA() {
+        return a;
+    }
+
+    public B getB() {
+        return b;
+    }
+
+    @Override
+    public String toString() {
+        return "Pair{" + a + "," + b + '}';
+    }
+}
