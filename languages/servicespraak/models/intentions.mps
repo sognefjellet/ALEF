@@ -169,6 +169,12 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="4705942098322609812" name="jetbrains.mps.lang.smodel.structure.EnumMember_IsOperation" flags="ng" index="21noJN">
+        <child id="4705942098322609813" name="member" index="21noJM" />
+      </concept>
+      <concept id="4705942098322467729" name="jetbrains.mps.lang.smodel.structure.EnumMemberReference" flags="ng" index="21nZrQ">
+        <reference id="4705942098322467736" name="decl" index="21nZrZ" />
+      </concept>
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
@@ -1858,6 +1864,27 @@
               <node concept="2Sf5sV" id="7sgrdr82bQ9" role="2Oq$k0" />
               <node concept="3TrcHB" id="7sgrdr82caM" role="2OqNvi">
                 <ref role="3TsBF5" to="ku5w:7sgrdr81CJK" resolve="hoofdlettergevoelig" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2SaL7w" id="6OISXMG0GcB" role="2ZfVeh">
+      <node concept="3clFbS" id="6OISXMG0GcC" role="2VODD2">
+        <node concept="3clFbF" id="6OISXMG0Gt0" role="3cqZAp">
+          <node concept="3fqX7Q" id="6OISXMG0HJx" role="3clFbG">
+            <node concept="2OqwBi" id="6OISXMG0HJz" role="3fr31v">
+              <node concept="2OqwBi" id="6OISXMG0HJ$" role="2Oq$k0">
+                <node concept="2Sf5sV" id="6OISXMG0HJ_" role="2Oq$k0" />
+                <node concept="3TrcHB" id="6OISXMG0HJA" role="2OqNvi">
+                  <ref role="3TsBF5" to="ku5w:192FwRWFKmt" resolve="substringType" />
+                </node>
+              </node>
+              <node concept="21noJN" id="6OISXMG0HJB" role="2OqNvi">
+                <node concept="21nZrQ" id="6OISXMG0HJC" role="21noJM">
+                  <ref role="21nZrZ" to="ku5w:6OISXMFYsS3" resolve="voldoet" />
+                </node>
               </node>
             </node>
           </node>

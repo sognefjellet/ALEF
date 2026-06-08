@@ -13,6 +13,7 @@
     <import index="dse8" ref="r:bbb1f8ef-a8a5-48ec-918c-331fca20e41c(interpreter.debug.structure)" />
     <import index="4slc" ref="r:eb302fb9-cf89-4fbc-90a9-b2886bf05a4d(rapporten.structure)" />
     <import index="f6cw" ref="r:57bbe3fc-bd7c-495c-b829-0fc2a7cfe592(bronspraak.structure)" />
+    <import index="tpfo" ref="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="rzok" ref="r:a8fb563d-47c7-4600-a897-619c6d2de4c5(contexts.structure)" implicit="true" />
     <import index="jwpy" ref="r:c0a1951e-ae53-4a58-911d-ce823dfaf0a2(besturingspraak.structure)" implicit="true" />
@@ -1349,6 +1350,11 @@
       <property role="TrG5h" value="eindigtOp" />
       <property role="1L1pqM" value="eindigt op" />
     </node>
+    <node concept="25R33" id="6OISXMFYsS3" role="25R1y">
+      <property role="3tVfz5" value="7867476135980420611" />
+      <property role="TrG5h" value="voldoet" />
+      <property role="1L1pqM" value="voldoet aan" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7vidyuNs5T1">
     <property role="TrG5h" value="TekstspecifiekVelddeel" />
@@ -1384,6 +1390,12 @@
     </node>
     <node concept="PrWs8" id="5HvJt3oLnSM" role="PzmwI">
       <ref role="PrY4T" to="m234:1qb136ire2h" resolve="ConditieActie" />
+    </node>
+    <node concept="1TJgyj" id="6OISXMFYxby" role="1TKVEi">
+      <property role="IQ2ns" value="7867476135980438242" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="regexp" />
+      <ref role="20lvS9" to="tpfo:h5OC6VX" resolve="Regexp" />
     </node>
   </node>
   <node concept="1TIwiD" id="7vidyuNrWhh">

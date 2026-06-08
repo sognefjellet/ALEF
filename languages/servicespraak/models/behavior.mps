@@ -86,6 +86,7 @@
     <import index="25x5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.text(JDK/)" />
     <import index="iny8" ref="r:98f2c063-d2b2-4335-9fd7-30b61a727b20(xmlUtils)" />
     <import index="nhsg" ref="09737df8-57b5-428f-9399-89f414a94263/java:nl.belastingdienst.alef_runtime.time(alef.runtime/)" />
+    <import index="tpfs" ref="r:00000000-0000-4000-0000-011c89590514(jetbrains.mps.baseLanguage.regexp.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -24728,6 +24729,105 @@
                 </node>
               </node>
             </node>
+            <node concept="3X5Udd" id="6OISXMG3mTP" role="3X5gkp">
+              <node concept="21nZrQ" id="6OISXMG3mTQ" role="3X5Uda">
+                <ref role="21nZrZ" to="ku5w:6OISXMFYsS3" resolve="voldoet" />
+              </node>
+              <node concept="3X5gDF" id="6OISXMG3pEk" role="3X5gFO">
+                <node concept="2OqwBi" id="6OISXMG45UF" role="3X5gDC">
+                  <node concept="1bVj0M" id="6OISXMG45oV" role="2Oq$k0">
+                    <node concept="3clFbS" id="6OISXMG45oX" role="1bW5cS">
+                      <node concept="3cpWs8" id="6OISXMG48iD" role="3cqZAp">
+                        <node concept="3cpWsn" id="6OISXMG48iE" role="3cpWs9">
+                          <property role="TrG5h" value="p" />
+                          <node concept="3uibUv" id="6OISXMG48iF" role="1tU5fm">
+                            <ref role="3uigEE" to="ni5j:~Pattern" resolve="Pattern" />
+                          </node>
+                          <node concept="2YIFZM" id="6OISXMG4hAS" role="33vP2m">
+                            <ref role="37wK5l" to="ni5j:~Pattern.compile(java.lang.String,int)" resolve="compile" />
+                            <ref role="1Pybhc" to="ni5j:~Pattern" resolve="Pattern" />
+                            <node concept="2OqwBi" id="6OISXMG4qvU" role="37wK5m">
+                              <node concept="2OqwBi" id="6OISXMG4ifP" role="2Oq$k0">
+                                <node concept="13iPFW" id="6OISXMG4hKo" role="2Oq$k0" />
+                                <node concept="3TrEf2" id="6OISXMG4iJ2" role="2OqNvi">
+                                  <ref role="3Tt5mk" to="ku5w:6OISXMFYxby" resolve="regexp" />
+                                </node>
+                              </node>
+                              <node concept="2qgKlT" id="6OISXMG4r0D" role="2OqNvi">
+                                <ref role="37wK5l" to="tpfs:hEwIUjb" resolve="toString" />
+                              </node>
+                            </node>
+                            <node concept="3K4zz7" id="6OISXMG4kXE" role="37wK5m">
+                              <node concept="2OqwBi" id="6OISXMG4lAT" role="3K4Cdx">
+                                <node concept="13iPFW" id="6OISXMG4l7u" role="2Oq$k0" />
+                                <node concept="3TrcHB" id="6OISXMG4m6w" role="2OqNvi">
+                                  <ref role="3TsBF5" to="ku5w:7sgrdr81CJK" resolve="hoofdlettergevoelig" />
+                                </node>
+                              </node>
+                              <node concept="3cmrfG" id="6OISXMG4njI" role="3K4E3e">
+                                <property role="3cmrfH" value="0" />
+                              </node>
+                              <node concept="10M0yZ" id="6OISXMG4o5G" role="3K4GZi">
+                                <ref role="3cqZAo" to="ni5j:~Pattern.CASE_INSENSITIVE" resolve="CASE_INSENSITIVE" />
+                                <ref role="1PxDUh" to="ni5j:~Pattern" resolve="Pattern" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3cpWs8" id="6OISXMG4xIP" role="3cqZAp">
+                        <node concept="3cpWsn" id="6OISXMG4xIQ" role="3cpWs9">
+                          <property role="TrG5h" value="m" />
+                          <node concept="3uibUv" id="6OISXMG4xIR" role="1tU5fm">
+                            <ref role="3uigEE" to="ni5j:~Matcher" resolve="Matcher" />
+                          </node>
+                          <node concept="2OqwBi" id="6OISXMG4yri" role="33vP2m">
+                            <node concept="37vLTw" id="6OISXMG4y2a" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6OISXMG48iE" resolve="p" />
+                            </node>
+                            <node concept="liA8E" id="6OISXMG4yIW" role="2OqNvi">
+                              <ref role="37wK5l" to="ni5j:~Pattern.matcher(java.lang.CharSequence)" resolve="matcher" />
+                              <node concept="37vLTw" id="6OISXMG4yUe" role="37wK5m">
+                                <ref role="3cqZAo" node="1vTrU7pXKX6" resolve="input" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="6OISXMG4rqI" role="3cqZAp">
+                        <node concept="3K4zz7" id="6OISXMG4$SZ" role="3clFbG">
+                          <node concept="3fqX7Q" id="6OISXMG4AkE" role="3K4E3e">
+                            <node concept="2OqwBi" id="6OISXMG4AkG" role="3fr31v">
+                              <node concept="37vLTw" id="6OISXMG4AkH" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6OISXMG4xIQ" resolve="m" />
+                              </node>
+                              <node concept="liA8E" id="6OISXMG4AkI" role="2OqNvi">
+                                <ref role="37wK5l" to="ni5j:~Matcher.find()" resolve="find" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="6OISXMG4B6q" role="3K4GZi">
+                            <node concept="37vLTw" id="6OISXMG4AyH" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6OISXMG4xIQ" resolve="m" />
+                            </node>
+                            <node concept="liA8E" id="6OISXMG4Bh$" role="2OqNvi">
+                              <ref role="37wK5l" to="ni5j:~Matcher.find()" resolve="find" />
+                            </node>
+                          </node>
+                          <node concept="2OqwBi" id="6OISXMG4rXM" role="3K4Cdx">
+                            <node concept="13iPFW" id="6OISXMG4rqG" role="2Oq$k0" />
+                            <node concept="3TrcHB" id="6OISXMG4szg" role="2OqNvi">
+                              <ref role="3TsBF5" to="m234:6E7_KuSgO47" resolve="ontkenning" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Bd96e" id="6OISXMG46uf" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
             <node concept="2OqwBi" id="1DvmE9QIMA7" role="3X5Ude">
               <node concept="13iPFW" id="1DvmE9QIMt0" role="2Oq$k0" />
               <node concept="3TrcHB" id="1DvmE9QIN0L" role="2OqNvi">
@@ -24923,6 +25023,16 @@
                   <node concept="3X5gDF" id="5korUAWLv7e" role="3X5gFO">
                     <node concept="Xl_RD" id="5korUAWLv7d" role="3X5gDC">
                       <property role="Xl_RC" value="eindigt niet op" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3X5Udd" id="6OISXMG3qP2" role="3X5gkp">
+                  <node concept="21nZrQ" id="6OISXMG3qP3" role="3X5Uda">
+                    <ref role="21nZrZ" to="ku5w:6OISXMFYsS3" resolve="voldoet" />
+                  </node>
+                  <node concept="3X5gDF" id="6OISXMG3r_B" role="3X5gFO">
+                    <node concept="Xl_RD" id="6OISXMG3r_A" role="3X5gDC">
+                      <property role="Xl_RC" value="voldoet niet aan" />
                     </node>
                   </node>
                 </node>
